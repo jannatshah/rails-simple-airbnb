@@ -14,6 +14,14 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand" href="http://localhost:3000/flats">Simple AirBnB</a>
+        <form class="form-inline">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            <a href="http://localhost:3000/flats/new">Add flat</a>
+          </button>
+        </form>
+    </nav>
     <%= yield %>
   </body>
 </html>

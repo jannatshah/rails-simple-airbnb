@@ -1,0 +1,14 @@
+<div class="container">
+  <br>
+  <h2>All our flats (<%= @flats.length %>)</h2>
+
+  <div class="cards">
+    <% @flats.each do |flat| %>
+        <div class="card">
+          <h3><%= flat.name %></h3>
+          <p><%= flat.description %></p>
+          <button type="button" class="btn btn-outline-primary" id="more-info">More info</button>
+        </div>
+    <% end %>
+  </div>
+</div>

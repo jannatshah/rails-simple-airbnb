@@ -19,7 +19,7 @@ flats_attributes = [
     number_of_guests: 3
   },
   {
-    name: 'Urban crash bad on river front in London',
+    name: 'Urban crash pad on river front in London',
     address: '58 Glaisher Street, London SE8 3ET',
     description: 'A lovely one bedroom flat with beautiful chic interiors on the riverfront of the Thames',
     price_per_night: 100,

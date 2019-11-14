@@ -6,8 +6,12 @@
     <% @flats.each do |flat| %>
         <div class="card">
           <h3><%= flat.name %></h3>
-          <p><%= flat.description %></p>
-          <button type="button" class="btn btn-outline-primary" id="more-info">More info</button>
+          <p><%= flat.address %></p>
+          <p>Price: £<%= flat.price_per_night %></p>
+          <p>Sleeps: <%= flat.number_of_guests %> persons</p>
+          <button type="button" class="btn btn-outline-primary" id="more-info">
+            <%= link_to 'More info', flat_path(flat) %>
+          </button>
         </div>
     <% end %>
   </div>
